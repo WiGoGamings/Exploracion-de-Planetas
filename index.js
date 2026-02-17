@@ -4,7 +4,7 @@ const planetas = require('./planetas');
 const app = express();
 const PORT = 1000;
 
-// Servir archivos estáticos desde la carpeta "public"
+
 app.use(express.static('public'));
 
 // por si la quiere ver en json
