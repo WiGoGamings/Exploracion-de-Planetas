@@ -1,4 +1,3 @@
-// Busca os planetas do backend
 fetch('/planetas')
   .then(res => res.json())
   .then(planetas => {
@@ -17,4 +16,4 @@ fetch('/planetas')
       grid.appendChild(card);
     });
   })
-  .catch(err => console.error('Erro ao carregar planetas:', err));
+  .catch(errorr => console.error('Error al cargar planetas:', errorr));
